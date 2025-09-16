@@ -11,13 +11,14 @@ body {
 
 .card {
     border: none;
-    border-radius: 15px;
+    border-radius: 30px;
     width: 100%;
     max-width: 500px;
     padding: 2rem;
     background: rgb(226, 225, 225);
     backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
 }
 
 .card h2 {
@@ -65,7 +66,6 @@ a:hover {
     color: #ff1c1c;
 }
 
-/* Ajuste dos ícones */
 .input-group-text {
     background: #f8f9fa;
     border: 1px solid #ddd;
@@ -73,4 +73,12 @@ a:hover {
     padding: 10px;
     color: #000000;
     font-size: 1.2rem;
+}
+.pokeperfil-img {
+    position: relative;
+    top: -100px;
+    width: 500px;
+    height: auto;
+
+
 }
