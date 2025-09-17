@@ -18,6 +18,10 @@
         </style>
     </head>
 <body>
+  <div class="login-container">
+  <!-- Logo -->
+  <img src="img/Pokeperfil.png" alt="Logo" class="logo">
+
   <div class="container d-flex justify-content-center align-items-center vh-100">
     <div class="card p-4 shadow">
       <h2 class="text-center mb-4">Cadastro</h2>
@@ -42,16 +46,6 @@
           <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha" required>
         </div>
 
-        <div class="input-group mb-3">
-          <span class="input-group-text"><i class="fas fa-lock"></i></span>
-          <input type="password" class="form-control" id="confirmarSenha" name="confirmarSenha" placeholder="Confirmar Senha" required>
-        </div>
-
-        <div class="input-group mb-3">
-          <span class="input-group-text"><i class="fas fa-phone"></i></span>
-          <input type="tel" class="form-control" id="numeroTelefone" name="numeroTelefone" placeholder="Número de Telefone" required>
-        </div>
-
         <button type="submit" class="btn btn-primary w-100">Cadastrar</button>
       </form>
       <p class="text-center mt-3">
@@ -67,8 +61,6 @@
         const dataNascimento = document.getElementById('dataNascimento').value;
         const email = document.getElementById('email').value;
         const senha = document.getElementById('senha').value;
-        const confirmarSenha = document.getElementById('confirmarSenha').value;
-        const numeroTelefone = document.getElementById('numeroTelefone').value;
 
         if (senha !== confirmarSenha) {
             alert('As senhas não coincidem.');
